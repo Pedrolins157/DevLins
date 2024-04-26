@@ -10,10 +10,20 @@
   </head>
 <body>
   <!-- navbar -->
-@include('layout.nav')
+  <div class="container" >
+      @include('layout.nav')
+    <div class="row">
+      <div class="col-6">
+        @include('layout.inform')
+      </div>
+      <div class="col-6">
+        <img src="img/engine.png" alt="" style="width:700px;margin-left:0;margin-top:50px;">
+      </div>
+    </div>
+  </div>
+
   <div class="img-bottom">
     <div class="container">
-     
     </div>
   </div>
   <div class="container">

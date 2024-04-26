@@ -1,18 +1,16 @@
-<nav class="navbar navbar-expand-lg text-light">
-  <div class="container-fluid text-light">
-    <a class="navbar-brand text-light" href="#">DevLins</a>
-    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<nav class="row navbar navbar-expand-lg text-light" >
+  <div class="col-3  container-fluid text-light" style="margin-left:0;">
+    <a class="navbar-brand text-light fs-2" href="#">DevLins</a>
+  </div>
+    <div class="col-5">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+        <li class="nav-item ms-4">
           <a class="nav-link text-light" aria-current="page" href="#">Produtos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#">sobre nós</a>
+        <li class="nav-item ms-4">
+          <a class="nav-link text-light" href="#">Sobre nós</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ms-4">
           <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Serviços
           </a>
@@ -23,14 +21,21 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <li class="nav-item">
+        <li class="nav-item ms-4">
           <a class="nav-link text-light" aria-disabled="true">Contato</a>
         </li>
+        <li class="nav-item ms-3">
+          <a class="nav-link text-light" aria-disabled="true">Interação</a>
+        </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Pesquise . . ." aria-label="Search">
-        <button class="btn btn-outline-primary" type="submit">Login</button>
-      </form>
     </div>
+  <div class="col-4 center mt-4">
+            <button class="btn">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                </svg>
+                <span>Login</span>
+            </button>
   </div>
 </nav>
