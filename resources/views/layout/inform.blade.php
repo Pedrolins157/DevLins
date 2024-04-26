@@ -1,9 +1,14 @@
-<div class="row ">
-    <div class="col-12">
-        <p class="h2 text-light">Solução para quem deseja um Site Com Código <b>impecável</b>!</p>
+<div class="row mt-5">
+    <div class="col-12 mt-5">
+        <p class="h1 text-light">Solução para empreendimentos e empresas.</p>
     </div> 
-    <div class="col">
-        <p>Sites com </p>
+    <div class="col mx-3">
+        <p  class="h5 text-light" > Consultoria em designer e desenvolvimento de sites para iniciar o negócio da melhor forma!</p>
+    </div>
+    <div class="col-12 mt-4 d-flex justify-content-center ">
+    <button class="btn ">
+        <span>Confira ja!</span>
+    </button>
     </div>
 </div>
 

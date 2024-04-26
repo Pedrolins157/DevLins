@@ -1,12 +1,43 @@
 body {
-
+ height: 2000px;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
 
 
+/* botão confira */
+.btn-4 {
+    border: 1px solid;
+    overflow: hidden;
+    position: relative;
+    
+    span {
+      z-index: 20;
+    }
+    
+    &:after {
+      background: #fff;
+      content: "";
+      height: 155px;
+      left: -75px;
+      opacity: .2;
+      position: absolute;
+      top: -50px;
+      transform: rotate(35deg);
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+      width: 50px;
+      z-index: -10;
+    }
+  }
+  
+  .btn-4:hover {
+    
+    &:after {
+      left: 120%;
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }
 
-
-
+/* botão login */
 .center {
   width: 180px;
   height: 90px;
@@ -60,7 +91,16 @@ svg {
     background-size: cover; 
     z-index:-1;
 }
-
+.img-tamplate{
+    position: absolute;
+    top: 15%;
+    left: 52%;
+    width: 642px;
+    height: 62%;
+    background-image: url(img/engine.png);
+    background-size: cover;
+    z-index: 2;
+}
 .img-bottom::before {
     content: "";
     position: absolute;
