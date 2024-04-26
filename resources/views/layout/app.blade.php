@@ -13,7 +13,7 @@
 @include('layout.nav')
   <div class="img-bottom">
     <div class="container">
-      <p>olá lins!</p>
+     
     </div>
   </div>
   <div class="container">
