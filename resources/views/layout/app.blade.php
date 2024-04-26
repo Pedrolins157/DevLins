@@ -27,12 +27,37 @@
       </div>
     </div>
   </section>
-
-  <!-- Conteúdo abaixo da seção das fotos -->
+  <!-- Conteúdo abaixo da seção das fotos e conteudos-->
   <section style="position:relative;top:5%;">
-    <div class="container">
+    <div class="container" style="max-width:1200px;margin-left: 21%;">
       @include('layout.content')
     </div>
   </section>
+<!-- tecnologias -->
+  <section style="background-color:#f3f3f3;padding:5px;">
+    <div class="container mt-5 mb-5">
+      @include('layout.technology')
+    </div>
+  </section>
+<!-- Informe -->
+  <section>
+      <div class="container mt-5">
+      @include('layout.reports')
+      </div>
+  </section>
+<!-- formulario de cadastro -->
+  <section style="background-color: #1071a9;height:350px;">
+    <div class="container mt-5">
+    @include('layout.form')
+    </div>
+  </section>
+  <section style="background-color: writh;height:400px;">
+    <div class="container mt-5">
+    </div>
+  </section>
+
+  <!-- footer -->
+  @include('layout.footer')
+
 </body>
 </html>

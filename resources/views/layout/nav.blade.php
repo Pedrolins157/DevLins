@@ -1,6 +1,6 @@
 <nav class="row navbar navbar-expand-lg text-light" >
   <div class="col-3  container-fluid text-light" style="margin-left:0;">
-    <a class="navbar-brand text-light fs-2" href="#">DevLins</a>
+  <img src="img/logoo.png" alt="" style="margin-top:15px;">
   </div>
     <div class="col-5">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
