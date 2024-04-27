@@ -5,16 +5,16 @@
     <div class="col-5">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item ms-4">
-          <a class="nav-link text-light" aria-current="page" href="#">Produtos</a>
+          <a class="nav-link text-light hvr-grow" aria-current="page" href="#">Produtos</a>
         </li>
         <li class="nav-item ms-4">
-          <a class="nav-link text-light" href="#">Sobre nós</a>
+          <a class="nav-link text-light hvr-grow" href="#">Sobre nós</a>
         </li>
         <li class="nav-item dropdown ms-4">
-          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-light hvr-grow" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Serviços
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu ">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
@@ -22,10 +22,10 @@
           </ul>
         </li>
         <li class="nav-item ms-4">
-          <a class="nav-link text-light" aria-disabled="true">Contato</a>
+          <a class="nav-link text-light hvr-grow" href="#">Contato</a>
         </li>
         <li class="nav-item ms-3">
-          <a class="nav-link text-light" aria-disabled="true">Interação</a>
+          <a class="nav-link text-light hvr-grow" href="#">Interação</a>
         </li>
       </ul>
     </div>
