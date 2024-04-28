@@ -14,11 +14,10 @@
     <div class="container">
         @include('layout.nav')
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-sm-6">
           @include('layout.inform')
         </div>
-        <div class="col-6 img-tamplate">
-          <!-- Conteúdo da seção das fotos -->
+        <div class="col-12 col-sm-6 img-tamplate">
         </div>
       </div>
     </div>
@@ -28,13 +27,13 @@
     </div>
   </section>
   <!-- Conteúdo abaixo da seção das fotos e conteudos-->
-  <section style="position:relative;top:5%;">
-    <div class="container" style="max-width:1200px;margin-left: 21%;">
+  <section class="">
+    <div class="container section-content" >
       @include('layout.content')
     </div>
   </section>
 <!-- tecnologias -->
-  <section style="background-color:#f3f3f3;padding:5px;">
+  <section style="background-color:#f9f9f9;padding:5px;">
     <div class="container mt-5 mb-5">
       @include('layout.technology')
     </div>
@@ -46,7 +45,7 @@
       </div>
   </section>
 <!-- formulario de cadastro -->
-  <section class="section-form" style="background-color: #1071a9;height:550px;">
+  <section class="section-form" style="background-color: #f9f9f9;height:650px;">
     <div class="container mt-5">
     @include('layout.form')
     </div>

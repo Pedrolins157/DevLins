@@ -1,18 +1,15 @@
-body {
- /* height: 2000px; */
+body, html {
+
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
 
 /* formulario */
 
 .input-form {
-    border-left: 10px solid #f53d05ad;
-    transition: border-left-width 0.3s ease; /* Adiciona uma transição suave para a mudança de largura do border-left */
-}
-
-.input-form:hover {
-    border-left-width: 30px; /* Define a nova largura do border-left no hover */
-}
+  border-radius: 15px;
+  padding: 15px;
+     
+ } 
 
 /* efeito botão */
 .hvr-grow {
@@ -122,21 +119,42 @@ svg {
     border-radius: 20px;
     background-image: url('img/content.jpg'); 
 }
-.img-security{
-    width: 100%;
-    height: 547px;
-    background-image: url('img/security.jpg'); 
+.section-content{
+  max-width:1200px;
+  margin-left:21%;
 }
-.img-bottom {
-    position: absolute;
-    top:0;
-    left:0;
+.img-security{
+  width: 100%;
+  height: 547px;
+  background-image: url('img/security.jpg'); 
+}
+@media screen and (max-width: 390px) {
+  .section-content{
+    margin-left:0;
+  }
+  .img-security{
     width: 100%;
-    height: 700px;
-    border-radius: 0 0 230px 0;
-    background-image: url('img/fundo.jpg'); 
-    background-size: cover; 
-    z-index:-1;
+    height: 434px;
+  }
+}
+
+.img-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  border-radius: 0 0 230px 0;
+  background-image: url('img/fundo.jpg'); 
+  background-size: cover; 
+  z-index: -1;
+}
+@media screen and (max-width: 390px) {
+  .img-bottom {
+      width: 100%;
+      border-radius: 0; 
+      height: 750px;
+  }
 }
 .img-tamplate{
     position: absolute;
@@ -147,6 +165,11 @@ svg {
     background-image: url(img/engine.png);
     background-size: cover;
     z-index: 2;
+}
+@media screen and (max-width: 390px) {
+  .img-tamplate {
+      display: none;
+  }
 }
 .img-bottom::before {
     content: "";
