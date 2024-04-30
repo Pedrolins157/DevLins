@@ -10,13 +10,15 @@
     </div>
 </div>
 <div class="row" style="margin-top: 17px;margin-bottom:130px;">
-    <div class="row col-12 col-sm-6">
+    <div class="row col-12 col-sm-6" style="margin-left:10px;" >
         <div class="col" style="margin-top:190px;"> 
             <p class="h1"><b>Tecnologia e segurança garantida.</b></p>
             <p class="h5 mt-4">Nossa prioridade é garantir a segurança absoluta dos nossos sites e sistemas. Investimos em medidas robustas de proteção cibernética, implementando as mais recentes tecnologias de segurança e adotando práticas de desenvolvimento seguro. </p>
         </div>
     </div>
-    <div class="col-12 col-sm-6">
-        <div class="img-security"></div>
+    <div class="col-12 col-sm-6"  >
+        <div class="">
+            <img class="img-security" src="img/security.jpg" height="400px" width="400px" alt="">
+        </div>
     </div>
 </div>
