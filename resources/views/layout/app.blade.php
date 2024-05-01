@@ -33,7 +33,7 @@
     </div>
   </section>
 <!-- tecnologias -->
-  <section style="background-color:#f9f9f9;padding:5px;">
+  <section style="background-color:#fbfbfb;padding:5px;">
     <div class="container mt-5 mb-5">
       @include('layout.technology')
     </div>
@@ -44,16 +44,20 @@
       @include('layout.reports')
       </div>
   </section>
-<!-- formulario de cadastro -->
-  <section class="section-form" style="background-color: #f9f9f9;height:650px;">
+<!-- produtos -->
+<section style="background-color: writh;height:800px;margin-top:150px;">
+    <div class="container mt-5">
+    @include('layout.product')
+    </div>
+  </section>
+
+  <!-- formulario de cadastro -->
+  <section class="section-form" style="background-color:#f9f9f9;height:650px;">
     <div class="container mt-5">
     @include('layout.form')
     </div>
   </section>
-  <section style="background-color: writh;height:400px;">
-    <div class="container mt-5">
-    </div>
-  </section>
+ 
 
   <!-- footer -->
   @include('layout.footer')

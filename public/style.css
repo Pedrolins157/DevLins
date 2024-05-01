@@ -151,6 +151,10 @@ svg {
   background-size: cover; 
   z-index: -1;
 }
+.product{
+  background-color: c9e9e8;
+  color:c9e9e8;
+}
 @media screen and (max-width: 390px) {
   .img-bottom {
       width: 100%;
