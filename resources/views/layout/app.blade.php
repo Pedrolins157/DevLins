@@ -45,7 +45,7 @@
       </div>
   </section>
 <!-- produtos -->
-<section style="background-color: writh;height:800px;margin-top:150px;">
+<section style="background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);height:800px;margin-top:150px;padding:40px;">
     <div class="container mt-5">
     @include('layout.product')
     </div>

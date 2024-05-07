@@ -155,6 +155,15 @@ svg {
   background-color: c9e9e8;
   color:c9e9e8;
 }
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
 @media screen and (max-width: 390px) {
   .img-bottom {
       width: 100%;
