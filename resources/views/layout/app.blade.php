@@ -45,13 +45,26 @@
       </div>
   </section>
 <!-- produtos -->
-<section style="background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);height:800px;margin-top:150px;padding:40px;">
+  <section class="section-product" style="background-color:#cddcf7;height:870px;margin-top:150px;padding:40px;">
     <div class="container mt-5">
     @include('layout.product')
     </div>
   </section>
+<!-- Informação sobre tecnologia -->
+  <section style="background-color:#f9f9f9;padding:40px;">
+    <div class="container mt-5">
+    @include('layout.content-tecnology')
+    </div>
+  </section>
+<!-- Contrato de serviços -->
+  <section>
+    <div class="container">
+      @include('layout.contact-develop')
+    </div>
+  </section>
 
-  <!-- formulario de cadastro -->
+
+<!-- formulario de cadastro -->
   <section class="section-form" style="background-color:#f9f9f9;height:650px;">
     <div class="container mt-5">
     @include('layout.form')
@@ -59,7 +72,7 @@
   </section>
  
 
-  <!-- footer -->
+<!-- footer -->
   @include('layout.footer')
 
 </body>
