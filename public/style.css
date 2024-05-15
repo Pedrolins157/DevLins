@@ -303,6 +303,25 @@ background: linear-gradient(to bottom, #2F80ED, #56CCF2);
       display: none;
   }
 }
+@media screen and (max-width:1366px){
+  .img-tamplate{
+      position: absolute;
+      top: 25%;
+      left: 49%;
+      width: 642px;
+      height: 100%;
+      background-image: url(img/engine.png);
+      background-size: cover;
+      z-index: 2;
+  }
+  .response-nav{
+    margin-right: 57px;
+    width: 49%;
+  }
+  .response-reports{
+    width: 300px!important; ;
+  }
+}
 .img-bottom::before {
     content: "";
     position: absolute;

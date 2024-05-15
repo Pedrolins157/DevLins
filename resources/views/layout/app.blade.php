@@ -26,9 +26,9 @@
       </div>
     </div>
   </section>
-  <!-- Conteúdo abaixo da seção das fotos e conteudos-->
+  <!-- Conteúdo de fotos e informações-->
   <section class="">
-    <div class="container section-content" >
+    <div class="container " >
       @include('layout.content')
     </div>
   </section>

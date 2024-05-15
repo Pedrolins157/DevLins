@@ -2,7 +2,7 @@
   <div class="col-3  container-fluid text-light" style="margin-left:0;">
     <img src="img/logoo.png" alt="" style="margin-top:15px;">
   </div>
-    <div class="col-5">
+    <div class="col-5 response-nav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item ms-4">
           <a class="nav-link text-light hvr-grow" aria-current="page" href="#">Produtos</a>
