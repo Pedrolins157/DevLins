@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# DevLins
+>>>>>>> 85d06b5dd09b6b37d71fd348256d0b83feb79778
 ## HI! I am Pedro Henrique Lins🖐️
 
 ### Focused on technology, the main objective is to be able to decipher rather than to develop with creativity.
@@ -40,7 +44,14 @@
   <img align="center" alt="pull" src="https://img.shields.io/github/issues-pr/Pedrolins157/DevLins.svg" />
   <img align="center" alt="start" src="https://img.shields.io/github/stars/Pedrolins157/DevLins.svg" />
   <img align="center" alt="start" src="https://img.shields.io/github/downloads/Pedrolins157/DevLins/total.svg" />
+<<<<<<< HEAD
  
   <img align="center" alt="start" src="https://img.shields.io/github/followers/Pedrolins157.svg?style=social&label=Follow&maxAge=2592000" />
  
 </div><br/>
+=======
+
+  <img align="center" alt="start" src="https://img.shields.io/github/followers/Pedrolins157.svg?style=social&label=Follow&maxAge=2592000" />
+
+</div><br/>
+>>>>>>> 85d06b5dd09b6b37d71fd348256d0b83feb79778
