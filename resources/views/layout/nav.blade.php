@@ -37,18 +37,19 @@
                 <span>Login</span>
             </button>
   </div>
-</nav>  --><nav class="navbar navbar-expand-lg text-light">
+</nav>  -->
+    <nav class="navbar navbar-expand-lg text-light mt-4 ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <div class="col-3 container-fluid text-light" style="margin-left:0;">
-        <img src="img/logoo.png" alt="" style="margin-top:15px;">
+        <img src="img/logoo.png" alt="" >
       </div>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+      <ul class="navbar-nav e-auto mb-2 mb-lg-0 ms-auto ">
         <li class="nav-item ms-4">
           <a class="nav-link text-light hvr-grow" aria-current="page" href="#">Produtos</a>
         </li>

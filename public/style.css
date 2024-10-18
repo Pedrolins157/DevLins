@@ -302,6 +302,13 @@ background: linear-gradient(to bottom, #2F80ED, #56CCF2);
   .img-tamplate {
       display: none;
   }
+  .inform{
+    text-align: center;  
+  }
+  .inform p{
+    font-size: 2.1em;
+  }
+
 }
 @media screen and (max-width:1366px){
   .img-tamplate{
