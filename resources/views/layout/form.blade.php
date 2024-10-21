@@ -1,5 +1,6 @@
     <div class="row justify-content-center" >
         <p class="h1 text-dark d-flex justify-content-center p-5 mt-5">Faça já um orçamento sem compromisso!</p> 
+        <form action="create-contact">
         <div class="col-12 mb-3 d-flex justify-content-center" style="max-width:700px;">
             <input type="text" class="form-control input-form  " placeholder="digite seu Nome completo" >
         </div>
@@ -17,6 +18,7 @@
                 <span><b>Enviar</b></span>
             </button>
         </div>
+        </form>
     </div>
 <script>
 $(document).ready(function() {
