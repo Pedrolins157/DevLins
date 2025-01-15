@@ -38,41 +38,41 @@
             </button>
   </div>
 </nav>  -->
-    <nav class="navbar navbar-expand-lg text-light mt-4 ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <div class="col-3 container-fluid text-light" style="margin-left:0;">
-        <img src="img/logoo.png" alt="" >
-      </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav e-auto mb-2 mb-lg-0 ms-auto ">
-        <li class="nav-item ms-4">
-          <a class="nav-link text-light hvr-grow" aria-current="page" href="#">Produtos</a>
-        </li>
-        <li class="nav-item ms-4">
-          <a class="nav-link text-light hvr-grow" href="#">Sobre nós</a>
-        </li>
-        <li class="nav-item dropdown ms-4">
-          <a class="nav-link dropdown-toggle text-light hvr-grow" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Serviços
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Consultoria</a></li>
-            <li><a class="dropdown-item" href="#">Orçamento</a></li>
-            <li><a class="dropdown-item" href="#">Fale conosco</a></li>
-          </ul>
-        </li>
-        <li class="nav-item ms-4">
-          <a class="nav-link text-light hvr-grow" href="#">Contato</a>
-        </li>
-        <li class="nav-item ms-3">
-          <a class="nav-link text-light hvr-grow" href="#">Interação</a>
-        </li>
-      </ul>
+<nav class="navbar navbar-expand-lg text-light mt-4 ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <div class="col-3 container-fluid text-light" style="margin-left:0;">
+                <img src="img/logoo.png" alt="">
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav e-auto mb-2 mb-lg-0 ms-auto ">
+                <li class="nav-item ms-4">
+                    <a class="nav-link text-light hvr-grow" aria-current="page" href="#">Produtos</a>
+                </li>
+                <li class="nav-item ms-4">
+                    <a class="nav-link text-light hvr-grow" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item dropdown ms-4">
+                    <a class="nav-link dropdown-toggle text-light hvr-grow" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Serviços
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Consultoria</a></li>
+                        <li><a class="dropdown-item" href="#">Orçamento</a></li>
+                        <li><a class="dropdown-item" href="#">Fale conosco</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ms-4">
+                    <a class="nav-link text-light hvr-grow" href="#">Contato</a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link text-light hvr-grow" href="#">Interação</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
